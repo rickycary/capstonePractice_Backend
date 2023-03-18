@@ -86,10 +86,6 @@ app.delete("/todo/:id", async (req, res) => {
     }
 });
 
-
-
-
-
 // Listener
 app.listen(PORT, () => {
     console.log(`Listening on PORT ${PORT}`)
