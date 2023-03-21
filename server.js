@@ -21,7 +21,7 @@ mongoose.connection
 
 // Models
 const TodoSchema = new mongoose.Schema({
-    reminder: String,
+    title: String,
     completed: Boolean,
 });
 
